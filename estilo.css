@@ -1,0 +1,109 @@
+/**/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    /**/
+    background-image: url(img/beach_summer_palms_ocean_tropical_paradise_sea_sunshine_6480x4320.jpg);
+    /**/
+    background-repeat: no-repeat;
+    /*Cobrir todo o fundo da tela com a mesma imagem*/
+    background-size: cover;
+}
+.login{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+.login a{
+    /*Transformar em maiscula*/
+    text-transform: uppercase;
+    /*tirar o sublinhado*/
+    text-decoration: none;
+    /*Aumentar tamanho da fonte*/
+    font-size: 35px;
+    /*Fonte da letra*/
+    font-family: "Indie Flower", cursive;
+    /*Espessura da letra*/
+    font-weight: 600;
+    /*cor da fonte*/
+    color: blue;
+    /*cor de fundo*/
+    background-color: greenyellow;
+    /*Espaçamento interno*/
+    padding: 5px 20px;
+    /*Arredondar arestas*/
+    border-radius: 30px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    color: blue;
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+    text-align: center;
+}
+.Informacoes p {
+    font-size: 30px;
+    color: blue;
+    text-transform : uppercase;
+    font-family:"Indie Flower", cursive;
+    font-weight: 600;
+    text-align: center;
+}
+
+#inputNome{
+    width: 430px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#inputEmail{
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.botaoLogin{
+    /*largura*/
+    width: 170px;
+    height: 40px;
+    color: blue;
+    background-color: greenyellow;
+    /* Arredondar borda */
+    border-radius: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-style: none;
+    font-family:"Indie Flower", cursive;
+   font-weight: 400;   
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.entrarEmail{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+
+
+ .redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20px;
+ }
+
+ .redes img{
+    width: 40px ;
+ }
